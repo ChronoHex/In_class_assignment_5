@@ -1,7 +1,7 @@
-import { getPosts } from "./api";
+import { getPosts } from "./api.js";
 
 function displayPosts() {
-    const container = document.getElementById('postContainer');
+    const container = document.getElementById("postContainer");
 
     getPosts()
         .then(posts => {
